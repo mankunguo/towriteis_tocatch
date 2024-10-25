@@ -2,7 +2,10 @@
     font-family: 'StretchTypewriter';
     src: url('stretchtypewritter-variableVF.ttf') format('truetype');
 }
-
+html, body {
+  
+  overflow: hidden; /* Prevents the entire page from scrolling */
+}
 body {
   margin-top: 4.5vw;
   margin-bottom: 4.5vw;
@@ -16,6 +19,8 @@ body{
   font-family: 'StretchTypewriter', monospace;
   font-size:1.8vw;
 }
+
+
 
 a {
   text-decoration: none;

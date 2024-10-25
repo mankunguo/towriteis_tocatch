@@ -108,12 +108,8 @@ function keyPressed() {
     cursorPos.y += textSize() * 1.5;
     lastTypedTime = millis();
     spreading = false;
-  } else if (keyCode === 32) {
-    // Prevent default scrolling behavior for the space bar
-    event.preventDefault();
   }
 }
-
 
 function startSpreading() {
   spreading = true;
